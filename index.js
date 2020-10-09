@@ -74,7 +74,8 @@ new Command("leaderboard", "shows money leaderboard", "-----"), new Command("sta
 new Command("buy <first word of item name> [amount=1]", "buy something from OLSEBOT shop", "-----"), new Command("inventory", "view which items you have", "-----"),
 new Command("beg", "beg for money", "-----"), new Command("sell", "sell items from your inventory", "-----"), new Command("coin <money> <bet>", "bet money on heads or tails", "-----"),
 new Command("rob <user>", "steal OLSEBOT money from someone", "-----"), new Command("deposit <amount>", "deposit OLSEBOT money to bank", "-----"), new Command("withdraw", "withdraw OLSEBOT money from bank", "-----"),
-new Command("chest [action=amount]", "view or open your chests", "-----"), new Command("record", "record videos with computer(and maybe earn OLSEBOT money)", "-----"), new Command("fish", "catch fish with fishing pole", "-----")];
+new Command("chest [action=amount]", "view or open your chests", "-----"), new Command("record", "record videos with computer(and maybe earn OLSEBOT money)", "-----"), new Command("fish", "catch fish with fishing pole", "-----"),
+new Command("peaceful <state>", "Enable or disable peaceful mode", "-----")];
 
 const funCommands = [new Command("rng <min_num> <max_num>", "Generates random number between two numbers", "-----"), new Command("reverse <text>", "command to reverse text", "-----"),
 new Command("poem <text>", "randomly mess up text that you choose", "-----"), new Command("8ball <question>", "ask magic ball yes/no question", "-----"),
